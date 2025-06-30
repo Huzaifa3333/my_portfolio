@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="navbar-items">
+            <h1>Portfolio</h1>
+            
+            <div class="anker">
+            <a href="#home">Home</a>
+            <a href="javascript:void(0);" onclick="scrollToAbout()">About</a>
+            <a href="javascript:void(0);" onclick="scrollToSkills()">Skills</a>
+            <a href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="content" id="Home">
+            <h1>Hello,It's Me<br>
+            <span>Muhammad Huzaifa</span><br>
+            And I'm a<span> Frontend Developer</span></h1>
+        </div>
+        <div class="profile-pic">
+        </div>
+        <div class="about-section" id="About">
+            <div class="about-content">
+            <h1>About Me</h1>
+            <div class="pic2"></div>
+            <p>"I'm Muhammad Huzaifa, a frontend developer based in Pakistan."</p>
+            <p>"I specialize in HTML, CSS, JavaScript, and responsive web design."</p>
+            <p>"I'm a hardworking, fast learner who loves solving design problems."</p>
+            <p>"My goal is to create clean, user-friendly websites."</p>
+            <p>"I enjoy working on real-world projects and collaborating with others."</p>
+            </div>
+        </div>
+        
+        <div class="skills-section" id="Skills">
+            <div class="skills-content">
+                <h1>My Skills</h1>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="bar">
+                        <div class="progress html">80%</div>
+
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="bar">
+                        <div class="progress css">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JAVA SCRIPT</p>
+                    <div class="bar">
+                        <div class="progress js">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>PYTHON</p>
+                    <div class="bar">
+                        <div class="progress python">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Web Development</p>
+                    <div class="bar">
+                        <div class="progress WD">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-section" id="contact">
+            <div class="contact-me">
+              <h1>Contact Me</h1>
+                <form action="https://formsubmit.co/huzaifaawaan970@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_subject" value="New Message from Portfolio Site">
+                    <div class="form-row">
+                    <input type="text" name="Name" class="Contact" placeholder="Your Name" required>
+                    <input type="text" name="Email" class="Contact" placeholder="Email Address"required>
+                    </div>
+                    <div class="form-row">
+                    <input type="text" name="Number" class="Contact"  placeholder="Mobile Number" required>
+                    <input type="text" name="Subject" class="Contact" placeholder="Email Subject" required>
+                    </div>
+                    <textarea name="Message" placeholder="Your Message" rows="5"required></textarea>
+                    <button type="submit" class="Submit">Submit</button>
+                    <div class="my-cont-info">
+                        <a href="https://wa.me/923232892925" target="_blank" class="icon">
+                        <i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="mailto:huzaifaawaan970@gmail.com" class="icon">
+                        <i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-huzaifa-94709b358/" target="_blank" class="icon">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Muhammad Huzaifa. All Rights Reserved.</p>
+    </footer>
+    <script src="Porfolio.Js"></script>
+</body>
+</html>
