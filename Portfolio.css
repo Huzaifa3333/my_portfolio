@@ -84,7 +84,7 @@ body{
     height: 110vh;
 }
 .about-content{
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
     margin-top: 220px;
     text-align: center;
@@ -176,11 +176,15 @@ body{
 }
 
 .js {
-    width: 50%;
+    width: 70%;
+    background-color: red;
+}
+.Nodejs{
+    width: 70%;
     background-color: red;
 }
 .python{
-    width: 70%;
+    width: 60%;
     background-color: orange;
 }
 .WD{
