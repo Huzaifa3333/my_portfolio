@@ -2,10 +2,13 @@
         margin: 0;
         padding-top: 0;
         box-sizing: border-box;
+
     }
 body{
     background-color: #081b29;
-}    
+    overflow-x: hidden;
+}  
+
     .navbar{
         color: aqua;
         padding: 1rem 3rem  ;
@@ -184,7 +187,7 @@ body{
     background-color: red;
 }
 .python{
-    width: 60%;
+    width:60%;
     background-color: orange;
 }
 .WD{
@@ -304,14 +307,13 @@ footer{
         margin-left: 0;
         width: 100%;  
     }
-
     /* Navbar links spacing and size */
     .navbar-items a {
         margin-left: 10px ; /* horizontal margin remove, vertical add */
         font-size: 0.9rem;
     }
 
-  
+   
 
     /* Content text align and margin fix */
     .content {
@@ -336,12 +338,9 @@ footer{
         width: 200px;
     }
     .about-section{
-        height: 95vh;
+        height: 140vh;
     }
     /* About text thoda chota */
-   .about-section{
-    height: 100vh;
-}
     .about-content p {
         font-size: 1rem;
         line-height: 1.4rem;
@@ -353,9 +352,6 @@ footer{
         text-align: center;
         font-size: 2.5rem;
     }
-   .skills-section{
-    height: 95vh;   
-}
     .skill{
         margin-top: 3rem;
     }
