@@ -340,7 +340,7 @@ footer{
     }
     /* About text thoda chota */
    .about-section{
-    height: 95vh;
+    height: 100vh;
 }
     .about-content p {
         font-size: 1rem;
