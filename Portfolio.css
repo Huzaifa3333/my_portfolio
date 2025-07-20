@@ -339,6 +339,9 @@ footer{
         height: 140vh;
     }
     /* About text thoda chota */
+   .about-section{
+    height: 95vh;
+}
     .about-content p {
         font-size: 1rem;
         line-height: 1rem;
